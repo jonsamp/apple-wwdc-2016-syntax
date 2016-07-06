@@ -2,6 +2,10 @@
 
 Syntax theme for Atom based on the colors of WWDC 2016.
 
+## Installation
+
+Install this theme by running `apm install apple-wwdc-2016-syntax` in your Terminal/CLI.
+
 This theme is best used with the UI package [One-Dark-UI](https://github.com/atom/one-dark-ui).
 
 ## Screenshots

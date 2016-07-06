@@ -1,7 +1,7 @@
 {
   "name": "apple-wwdc-2016-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Apple WWDC Syntax Theme, based on WWDC 2016.",
   "keywords": [
     "syntax",

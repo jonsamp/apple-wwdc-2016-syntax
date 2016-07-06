@@ -17,7 +17,7 @@
     "vintage",
     "80s"
   ],
-  "repository": "https://github.com/atom/apple-wwdc-2016-syntax",
+  "repository": "https://github.com/jonsamp/apple-wwdc-2016-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

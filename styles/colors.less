@@ -1,46 +1,33 @@
-// These colors are specific to the theme. Do not use in a package!
 
-@very-light-gray: #99A0A7;
-@light-gray: #E9EAEA;
-@gray: #373b41;
-@dark-gray: #21232D;
-@very-dark-gray: #21232D;
-
-@cyan: #8abeb7;
-@light-orange: #f0c674;
-
-@lavender: #93C76F;
-@purple: #93C76F;
+// Config -----------------------------------
+@syntax-hue:          220;
+@syntax-saturation:   13%;
+@syntax-brightness:   18%;
 
 
-@yellow: #F0D674;
+// Monochrome -----------------------------------
+@mono-1: hsl(0, 0%, 100%); // default text
+@mono-2: hsl(@syntax-hue,  9%, 65%);
+@mono-3: hsl(@syntax-hue, 10%, 50%);
+
+// Colors -----------------------------------
+@hue-1:   hsl(177, 93%, 35%);
+@hue-2:   @mono-1;
+@hue-3:   hsl(24, 68%, 60%);
+@hue-4:   hsl( 39, 67%, 69%);
+
+@hue-5: hsl(24, 68%, 60%);
+@hue-6:   hsl(1, 69%, 54%);
+
+@hue-5-2:   hsl(95, 44%, 61%);
+@hue-6-2: hsl(316, 52%, 47%);
+
+@hue-7: hsl(122, 41%, 53%);
 
 
-
-
-@darkyellow: #FBB03B;
-@mint: #B53993;
-
-@grey1: #E9EAEA;
-@grey2: #D4D5D6;
-@grey3: #BEBFC1;
-@grey4: #939598;
-@gutter: #6C767D;
-@tabgrey: #4A4F52;
-@grey5: #3E3E40;
-@bggrey: #21232D;
-@bargrey: #2A3034;
-@blue: #52B1DB;
-@bgblue: #282A36;
-@darkblue: #204056;
-@guide: #253845;
-@midnightblue: #152B39;
-@mint: #34B3A0;
-@red: #F65A5B;
-
-@green: #DC3938;
-@darkpurple: #B53993;
-@orange: #D48D5D;
-@pink: #93C76F;
-@teal: #06ABA2;
-@comment: #51BB57;
+// Base colors -----------------------------------
+@syntax-fg:     @mono-1;
+@syntax-bg:     hsl(203, 21%, 17%);
+@syntax-gutter: darken(@syntax-fg, 26%);
+@syntax-guide:  fade(@syntax-fg, 15%);
+@syntax-accent: @mono-2;

@@ -1,6 +1,4 @@
-Copyright (c) 2016 Jon Samp.
-
-This syntax theme is in no way associated with Apple Inc, or its products.
+Copyright (c) 2016 GitHub Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
